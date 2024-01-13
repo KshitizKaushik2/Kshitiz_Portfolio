@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="index.html" style="--i:1" class="active">Home</a>
+            <!--<a href="About.html" style="--i:2">About</a> -->
+            <a href="skill.html" style="--i:3">Skill</a>
+            <a href="Contact.html" style="--i:5">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, Myself</h3>
+            <h1><span class="nme">Kshitiz Kaushik</span></h1>
+            <h3>And I am a <span class="text"></span></h3>
+            <p>I Solve problem with data.<br>
+                <br>collecting, cleaning, sorting, and processing.
+
+
+            <div class="Home-sci">
+                <a href="https://www.linkedin.com/in/kshitiz-sharma-88bb081b6/" style="--i:6"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/KshitizKaushik2" style="--i:8"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/kshitiz__kaushik/" style="--i:7"><i class='bx bxl-instagram'></i></a>
+                <a href="https://web.whatsapp.com/" style="--i:8"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://web.telegram.org/" style="--i:8"><i class='bx bxl-telegram'></i></a>
+            </div>
+            <!--<a href="#">More About Me...</a> -->
+        </div>
+    </section>
+    <script>
+        var typed = new Typed(".text", {
+            strings: ["I am a Data Analyst"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
